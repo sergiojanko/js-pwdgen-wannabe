@@ -12,3 +12,12 @@ console.log("color : ", color);
 // Password
 var newPassword = firstName + lastName + color + "21";
 console.log("newPassword : ", newPassword)
+
+// Recupero elemento HTML
+
+var passwordPlaceholder = document.getElementById("password")
+console.log(typeof passwordPlaceholder)
+
+// Inserisco nuova password
+
+passwordPlaceholder.innerHTML = newPassword
