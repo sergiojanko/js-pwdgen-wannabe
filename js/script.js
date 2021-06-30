@@ -8,3 +8,7 @@ console.log("lastName : ", lastName);
 
 var color = prompt("Inserisci il tuo colore preferito:");
 console.log("color : ", color);
+
+// Password
+var newPassword = firstName + lastName + color + "21";
+console.log("newPassword : ", newPassword)
